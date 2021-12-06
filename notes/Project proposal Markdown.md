@@ -43,6 +43,7 @@ A major ethical issue relating to the present study stems from the dataset. The 
 We believe that the project is of big enough scale for a group of three students. Given that none of us has prior experience with Computer Vision, we hope to work in close collaboration on all of the aforementioned tasks. Nevertheless, as instructed in the course description, we will document our contributions with the help of GitHub [2]. We are yet to distribute the research questions and responsibilities among ourselves as soon as we receive feedback on the project proposal.
 
 [1] The dataset by Wang and Tang (2009) and Zhang et al. (2011) can be found at http://tdface.ece.tufts.edu/.
+
 [2] Link to our repository on GitHub: https://github.com/RafalCer/face_composite_generation.
 
 ### References
