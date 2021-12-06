@@ -3,6 +3,7 @@ ___________________________
 ## _Project Proposal: Facial Composites Generation from Natural Language Descriptions_
 
 Viktorija Buzaitė, Rafal Černiavski, Eva Elžbieta Sventickaitė
+
 December 6, 2021
 
 ### 1 Introduction
@@ -41,7 +42,7 @@ A major ethical issue relating to the present study stems from the dataset. The 
 
 We believe that the project is of big enough scale for a group of three students. Given that none of us has prior experience with Computer Vision, we hope to work in close collaboration on all of the aforementioned tasks. Nevertheless, as instructed in the course description, we will document our contributions with the help of GitHub. We are yet to distribute the research questions and responsibilities among ourselves as soon as we receive feedback on the project proposal.
 
-[1] The dataset by Wang and Tang (2009) and Zhang et al. (2011) can be found at
+[1] The dataset by Wang and Tang (2009) and Zhang et al. (2011) can be found at http://tdface.ece.tufts.edu/.
 
 ### References
 
