@@ -1,0 +1,73 @@
+
+--- predictions_freakshow_m9_trained_on_antons.json ---
+
+Complete match at image 95 caption number 0
+Complete match at image 229 caption number 2
+Result: 20.512687932982036
+
+--- predictions_freakshow_b_sketches_trained_on_b_sketches.json ---
+
+Complete match at image 509 caption number 2
+Result: 14.601074413202909
+
+--- predictions_celeb_small_res_b_sketches_trained_on_b_sketches.json ---
+
+Complete match at image 8 caption number 4
+Complete match at image 35 caption number 1
+Complete match at image 56 caption number 6
+Complete match at image 280 caption number 0
+Complete match at image 280 caption number 4
+Complete match at image 461 caption number 1
+Complete match at image 461 caption number 5
+Complete match at image 461 caption number 7
+Complete match at image 696 caption number 8
+Complete match at image 722 caption number 6
+Complete match at image 875 caption number 0
+Complete match at image 935 caption number 8
+Result: 28.90339510721472
+
+--- predictions_sketches_b_sketches_trained_on_b_sketches.json ---
+
+Complete match at image 302 caption number 0
+Complete match at image 313 caption number 3
+Complete match at image 638 caption number 1
+Complete match at image 748 caption number 4
+Complete match at image 748 caption number 9
+Result: 14.150742688254315
+
+--- predictions_freakshow_m8_trained_on_mixed.json ---
+
+Complete match at image 682 caption number 3
+Result: 13.367229657597319
+
+--- predictions_sketches_m9_trained_on_antons.json ---
+
+Result: 18.53622507953004
+
+--- predictions_sketches_m8_trained_on_mixed.json ---
+
+Result: 12.38308212212626
+
+--- predictions_celeb_small_res_m9_trained_on_antons.json ---
+
+Complete match at image 35 caption number 1
+Complete match at image 95 caption number 0
+Complete match at image 269 caption number 5
+Complete match at image 278 caption number 7
+Complete match at image 313 caption number 4
+Complete match at image 557 caption number 3
+Complete match at image 562 caption number 7
+Complete match at image 875 caption number 0
+Result: 27.528103179500192
+
+--- predictions_celeb_small_res_m8_trained_on_mixed.json ---
+
+Complete match at image 23 caption number 1
+Complete match at image 95 caption number 6
+Complete match at image 600 caption number 2
+Complete match at image 682 caption number 1
+Complete match at image 722 caption number 8
+Complete match at image 769 caption number 8
+Complete match at image 877 caption number 3
+Complete match at image 967 caption number 5
+Result: 35.293927820545456
