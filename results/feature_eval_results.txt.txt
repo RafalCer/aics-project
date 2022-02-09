@@ -1,0 +1,130 @@
+
+--- predictions_freakshow_m9_trained_on_antons.json ---
+
+Complete match at image 95 caption number 0
+Complete match at image 229 caption number 2
+Result: 20.512687932982036
+
+--- predictions_celeb_small_res_m6_trained_on_freakshow.json ---
+
+Complete match at image 407 caption number 4
+Complete match at image 696 caption number 9
+Complete match at image 722 caption number 5
+Complete match at image 748 caption number 4
+Complete match at image 748 caption number 9
+Complete match at image 780 caption number 6
+Result: 14.030579143079146
+
+--- predictions_sketches_m3_trained_on_celeb_small_res.json ---
+
+Complete match at image 33 caption number 4
+Complete match at image 630 caption number 8
+Complete match at image 630 caption number 9
+Result: 19.864102841602847
+
+--- predictions_celeb_small_res_m3_trained_on_celeb_small_res.json ---
+
+Complete match at image 56 caption number 0
+Complete match at image 115 caption number 5
+Complete match at image 181 caption number 7
+Complete match at image 400 caption number 2
+Complete match at image 567 caption number 9
+Complete match at image 750 caption number 5
+Complete match at image 752 caption number 7
+Complete match at image 950 caption number 1
+Complete match at image 967 caption number 5
+Result: 33.875762711230934
+
+--- predictions_celeb_small_res_m7_trained_on_b_sketches.json ---
+
+Complete match at image 8 caption number 4
+Complete match at image 35 caption number 1
+Complete match at image 56 caption number 6
+Complete match at image 280 caption number 0
+Complete match at image 280 caption number 4
+Complete match at image 461 caption number 1
+Complete match at image 461 caption number 5
+Complete match at image 461 caption number 7
+Complete match at image 696 caption number 8
+Complete match at image 722 caption number 6
+Complete match at image 875 caption number 0
+Complete match at image 935 caption number 8
+Result: 28.90339510721472
+
+--- predictions_freakshow_m7_trained_on_b_sketches.json ---
+
+Complete match at image 509 caption number 2
+Result: 14.601074413202909
+
+--- predictions_freakshow_m6_trained_on_freakshow.json ---
+
+Complete match at image 75 caption number 3
+Complete match at image 173 caption number 1
+Complete match at image 567 caption number 9
+Complete match at image 626 caption number 0
+Complete match at image 659 caption number 9
+Complete match at image 696 caption number 9
+Complete match at image 722 caption number 8
+Result: 27.778054444695268
+
+--- predictions_sketches_m9_trained_on_antons.json ---
+
+Result: 18.53622507953004
+
+--- predictions_freakshow_m3_trained_on_celeb_small_res.json ---
+
+Complete match at image 66 caption number 5
+Complete match at image 226 caption number 3
+Complete match at image 226 caption number 4
+Complete match at image 542 caption number 4
+Complete match at image 660 caption number 6
+Complete match at image 781 caption number 9
+Result: 19.743054051641526
+
+--- predictions_sketches_m5_trained_on_sketches.json ---
+
+Complete match at image 54 caption number 2
+Complete match at image 207 caption number 6
+Complete match at image 400 caption number 7
+Result: 29.754344721326085
+
+--- predictions_freakshow_m5_trained_on_sketches.json ---
+
+Complete match at image 486 caption number 4
+Result: 21.245143434137248
+
+--- predictions_sketches_m6_trained_on_freakshow.json ---
+
+Complete match at image 210 caption number 2
+Complete match at image 248 caption number 5
+Complete match at image 595 caption number 8
+Complete match at image 722 caption number 8
+Result: 22.039567719861832
+
+--- predictions_sketches_m7_trained_on_b_sketches.json ---
+
+Complete match at image 302 caption number 0
+Complete match at image 313 caption number 3
+Complete match at image 638 caption number 1
+Complete match at image 748 caption number 4
+Complete match at image 748 caption number 9
+Result: 14.150742688254315
+
+--- predictions_celeb_small_res_m5_trained_on_sketches.json ---
+
+Complete match at image 56 caption number 6
+Complete match at image 818 caption number 9
+Complete match at image 845 caption number 6
+Result: 17.274832173330648
+
+--- predictions_celeb_small_res_m9_trained_on_antons.json ---
+
+Complete match at image 35 caption number 1
+Complete match at image 95 caption number 0
+Complete match at image 269 caption number 5
+Complete match at image 278 caption number 7
+Complete match at image 313 caption number 4
+Complete match at image 557 caption number 3
+Complete match at image 562 caption number 7
+Complete match at image 875 caption number 0
+Result: 27.528103179500192
