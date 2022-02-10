@@ -1,4 +1,4 @@
-# There is Noise on Your Face, but there is no Nose: An Exploration of DataAugmentation Methods for Captioning Facial Features
+# There is Noise on Your Face, but there is no Nose: An Exploration of Data Augmentation Methods for Captioning Facial Features
 
 ## Viktorija Buzaitė, Eva Elžbieta Sventickaitė, Rafal Černiavski
 
