@@ -35,6 +35,11 @@ Complete match at image 950 caption number 1
 Complete match at image 967 caption number 5
 Result: 33.875762711230934
 
+--- predictions_freakshow_m8_trained_on_mixed.json ---
+
+Complete match at image 682 caption number 3
+Result: 13.367229657597319
+
 --- predictions_celeb_small_res_m7_trained_on_b_sketches.json ---
 
 Complete match at image 8 caption number 4
@@ -55,6 +60,10 @@ Result: 28.90339510721472
 
 Complete match at image 509 caption number 2
 Result: 14.601074413202909
+
+--- predictions_sketches_m10_trained_on_all_antons.json ---
+
+Result: 10.745805420070145
 
 --- predictions_freakshow_m6_trained_on_freakshow.json ---
 
@@ -101,6 +110,14 @@ Complete match at image 595 caption number 8
 Complete match at image 722 caption number 8
 Result: 22.039567719861832
 
+--- predictions_sketches_m8_trained_on_mixed.json ---
+
+Result: 12.38308212212626
+
+--- predictions_celeb_small_res_m10_trained_on_all_antons.json ---
+
+Result: 17.797272221242824
+
 --- predictions_sketches_m7_trained_on_b_sketches.json ---
 
 Complete match at image 302 caption number 0
@@ -128,3 +145,19 @@ Complete match at image 557 caption number 3
 Complete match at image 562 caption number 7
 Complete match at image 875 caption number 0
 Result: 27.528103179500192
+
+--- predictions_celeb_small_res_m8_trained_on_mixed.json ---
+
+Complete match at image 23 caption number 1
+Complete match at image 95 caption number 6
+Complete match at image 600 caption number 2
+Complete match at image 682 caption number 1
+Complete match at image 722 caption number 8
+Complete match at image 769 caption number 8
+Complete match at image 877 caption number 3
+Complete match at image 967 caption number 5
+Result: 35.293927820545456
+
+--- predictions_freakshow_m10_trained_on_all_antons.json ---
+
+Result: 11.19542083733261
