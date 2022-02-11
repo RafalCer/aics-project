@@ -1,0 +1,6 @@
+[submodule "notebooks/captioning_and_evaluation/a-PyTorch-Tutorial-to-Image-Captioning"]
+	path = notebooks/captioning_and_evaluation/a-PyTorch-Tutorial-to-Image-Captioning
+	url = https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning.git
+[submodule "notebooks/captioning_and_evaluation/pymeteor"]
+	path = notebooks/captioning_and_evaluation/pymeteor
+	url = https://github.com/zembrodt/pymeteor.git
