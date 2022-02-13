@@ -19,13 +19,27 @@ The structure of the repository is as follows:
 │   │       feature_evaluation-checkpoint.ipynb
 │   │
 │   ├───captioning_and_evaluation
-│   │       feature_evaluation.ipynb
-│   │       meteor.ipynb
-│   │       preprocess.ipynb
-│   │       test.ipynb
+│   │   │   feature_evaluation.ipynb
+│   │   │   meteor.ipynb
+│   │   │   preprocess.ipynb
+│   │   │   test.ipynb
+│   │   │
+│   │   ├───.ipynb_checkpoints
+│   │   │       feature_evaluation-checkpoint.ipynb
+│   │   │       preprocess-checkpoint.ipynb
+│   │   │       test-checkpoint.ipynb
+│   │   │
+│   │   ├───a-PyTorch-Tutorial-to-Image-Captioning
+│   │   │
+│   │   └───pymeteor
 │   │
 │   ├───image_and_caption_augmentation
-│   │       Face2Sketch.ipynb
+│   │   │   Face2Sketch.ipynb
+│   │   │   textual_augmenter_ant.ipynb
+│   │   │
+│   │   ├───ca-gan
+│   │   │
+│   │   └───pytorch-CycleGAN-and-pix2pix
 │   │
 │   └───linear_feature_recognition
 │           Linear_models .ipynb
@@ -39,6 +53,9 @@ The structure of the repository is as follows:
     │   .DS_Store
     │   feature_eval_results.txt
     │   meteor_results.json
+    │
+    ├───caption_augmentation
+    │       caption_augmentation_demo.png
     │
     ├───caption_augmentation_results
     ├───caption_predictions
