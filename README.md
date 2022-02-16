@@ -15,19 +15,11 @@ The structure of the repository is as follows:
 ├───notebooks
 │   │   AI Preprocessing.ipynb
 │   │
-│   ├───.ipynb_checkpoints
-│   │       feature_evaluation-checkpoint.ipynb
-│   │
 │   ├───captioning_and_evaluation
 │   │   │   feature_evaluation.ipynb
 │   │   │   meteor.ipynb
 │   │   │   preprocess.ipynb
 │   │   │   test.ipynb
-│   │   │
-│   │   ├───.ipynb_checkpoints
-│   │   │       feature_evaluation-checkpoint.ipynb
-│   │   │       preprocess-checkpoint.ipynb
-│   │   │       test-checkpoint.ipynb
 │   │   │
 │   │   ├───a-PyTorch-Tutorial-to-Image-Captioning
 │   │   │
@@ -50,7 +42,6 @@ The structure of the repository is as follows:
 │       Project proposal Markdown.md
 │
 └───results
-    │   .DS_Store
     │   feature_eval_results.txt
     │   meteor_results.json
     │
@@ -59,7 +50,6 @@ The structure of the repository is as follows:
     │
     ├───caption_augmentation_results
     ├───caption_predictions
-    │       .DS_Store
     │       predictions_celeb_small_res_m10_trained_on_all_antons.json
     │       predictions_celeb_small_res_m3_trained_on_celeb_small_res.json
     │       predictions_celeb_small_res_m5_trained_on_sketches.json
