@@ -7,3 +7,16 @@
 [submodule "notebooks/captioning_and_evaluation/rouge"]
 	path = notebooks/captioning_and_evaluation/rouge
 	url = https://github.com/pltrdy/rouge.git
+[submodule "notebooks/image_and_caption_augmentation/CycleGAN"]
+	path = notebooks/image_and_caption_augmentation/CycleGAN.git
+	url = https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+[submodule "notebooks/image_and_caption_augmentation/CycleGAN"]
+	path = notebooks/image_and_caption_augmentation/CycleGAN.git
+	url = https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+[submodule "notebooks/image_and_caption_augmentation/ca-gan"]
+	path = notebooks/image_and_caption_augmentation/ca-gan
+	url = https://github.com/fei-hdu/ca-gan
+
+[submodule "notebooks/image_and_caption_augmentation/pytorch-CycleGAN-and-pix2pix"]
+	path = notebooks/image_and_caption_augmentation/pytorch-CycleGAN-and-pix2pix
+	url = https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
