@@ -73,8 +73,9 @@ Nikolai Ilinykh$^{\ast}$ \and Rafal Černiavski$^{\dagger}$ \and Eva Elžbieta S
 % In other words, describing faces has a social impact once we think of the models for automatic description of faces.
 % Thus it is important to monitor the quality of automatically generated descriptions of faces.
 % Because many descriptions contain subjective opinions (e.g., beautiful, old) and it is important to have a system that does not discriminate humans based on their facial features.
+% SD: Swap point 1 and 2?
 \pause
-\item The task of face description generation requires a highly fine-grained understanding of specific parts in the image (in \textcolor{blue}{blue}).
+\item Face description generation involves subjective language and requires a fine-grained understanding of specific parts of images (in \textcolor{blue}{blue}).
 % Mapping these descriptions with visual features is hard
 %\item Face description generation requires a fine-grained understanding of the image.
 % Image captioning is viewed as the standard multi-modal task and progress on this task has been truly astonishing.
@@ -124,16 +125,17 @@ Nikolai Ilinykh$^{\ast}$ \and Rafal Černiavski$^{\dagger}$ \and Eva Elžbieta S
 \begin{frame}
 \frametitle{In this study we \ldots}
 \begin{itemize}
-	\item Examine the fit between the task of face description generation and standard image description generation model.
+	\item Examine the fit of a standard image description generation model for face description generation.
 	% We take a simple CNN-LSTM model that takes an image of a face as its input and generates description in auto-regressive fashion
 	% For training, we use CelebA-HQ dataset.  The dataset contains 30, 000 high-resolution images of human faces of celebrities with 10 natural language descriptions per each image.
 	% We aim to examine the extent to which a standard captioning model is useful for face description generation task.
-	\item Analyse the impact of different feature representations on the task of face description generation.
+	\item Analyse the impact of different feature representations on face description generation.
 	% We perform several experiments in which we modify either visual or linguistic inputs to the model.
 	% Our goal is to evaluate the robustness of the model when presented with different feature types.
 	\item Evaluate the quality of visual abstractions for facial feature classification.
 	% We also test different visual representations for a different task of feature classification.
 	% With this, we aim to evaluate the quality of visual abstractions.
+        % SD: Test the effects of text augmentation on the quality of descriptions?
 \end{itemize}
 % Our results show that 
 \end{frame}
