@@ -208,9 +208,9 @@ Nikolai Ilinykh$^{\ast}$ \and Rafal Černiavski$^{\dagger}$ \and Eva Elžbieta S
 \frametitle{Generation: training details}
 \begin{itemize}
 
-	\item A simple CNN-LSTM with attention.
+	\item A simple CNN-LSTM model with attention.
 	\item The best model is chosen based on BLEU on the validation set after $20$ epochs.
-	\item Decoding: greedy.
+	\item Greedy decoding.
 	\pause
 	\item The models we train:
 		\begin{itemize}
@@ -308,7 +308,7 @@ G. Aug-Anton 5  & 42.33                                                    & 35.
 \hline
 A. Baseline &  \textcolor{red}{72.87}                                                           & 60.27                                                              & 60.35                                                               \\
 B. GAN:Composite        & 59.47                                                             &  \textcolor{red}{72.76}                                                           & 66.95                                                               \\
-C. Face-2-Sketch       & 72.87                                                            & 61.86                                                              & 61.36                                                               \\
+C. Face-2-Sketch       & 72.87                                                      & 61.86                                                              & 61.36                                                               \\
 D. GAN:Distorted         & 57.17                                                             & 64.22                                                              &  \textcolor{red}{70.93}                                                     \\
 \hdashline
 E. Aug-Caption             & 69.98                                                             & 39.06                                                              & 46.03                                                               \\
@@ -526,12 +526,12 @@ G. Aug-Anton 5  & \textcolor{red}{42.33}                                        
 
 	\item We use visual representations (original, composites, sketches and distorted) and train a classifier to predict image features based on feature annotations.
 	% They come with the dataset.
-	\item Each classifier takes an image and learns to predict one out of 40 features.
+	\item Each classifier takes an image and learns to predict one of 40 features.
 	% For me: an image can have more than 1 feature, but we train it only for 1 feature. Might be a question about that, so more experiments are needed.
 	\pause
 	\item The models we train:
 		\begin{itemize}
-			\item Random forest and k-Nearest neighbours
+			\item Random forest and k-neaarest neighbours
 			\item Randomly select 9000 images as a training set and 1000 as the test set
 			\item We evaluate in terms of micro and macro averages of precision, recall and F-score.
 		\end{itemize}
@@ -542,7 +542,7 @@ G. Aug-Anton 5  & \textcolor{red}{42.33}                                        
 
 % We do not observe any noticeable difference between different features across both micro- and macro-averaged results.
 % Notably, macro-averaged precision on sketch features goes slightly high for both classifiers indicating that there is something about sketch features the the model has learned; this results also nicely accompanies previous results for generation task for which sketch features were not that bad
-% also, generally, macro scores are in a lower range than micro scores, demonstrating that the model does worse on non-majority classes. So the model can predict some of the most frequent features (female, attractive), but fails to predict rare features (goatee, receding_hairline). This result indicates that a more complex model is required to operate with augmented visual representations.
+% also, generally, macro scores are in a lower range than micro scores, demonstrating that the model does worse on non-majority (minority?) classes. % SD: we can say that there is a discrepancy between the performance on classes % So the model can predict some of the most frequent features (female, attractive), but fails to predict rare features (goatee, receding_hairline). This result indicates that a more complex model is required to operate with augmented visual representations.
 
 \begin{frame}
 \frametitle{Feature classification: results}
@@ -584,17 +584,18 @@ G. Aug-Anton 5  & \textcolor{red}{42.33}                                        
 \frametitle{Conclusions and future work}
 \begin{itemize}
 
-\item In this study we examined the effects of visual and linguistic data augmentation
+\item % In this study We examined the effects of visual and linguistic data augmentation on generation of descriptions of faces.
 % as means of improving automatic generation of descriptions of human faces
-\item Our results indicate that original images are generally more useful. However, it is still possible to ``distill'' original images to such level of abstractions (e.g., sketches), in which the model would still perform relatively well
-\item The model benefits from training on captioning data from a different domain.
+\item Our results indicate that original images are generally more useful. However, it is still possible to ``distill'' original images to such level of abstractions (e.g., sketches), in which the model still performs relatively well
+\item The model benefits from training on captioning data from a different domain. % SD: we speculate that this enriches the semantic space, introduces additional semantic distinctions between the vocabulary.
 %Possibly, because from captions it learns general syntactic structures and a broader range of semantic relations between words. Descriptions of faces in the dataset are much more rigid in this respect.
 \pause
 \item Future work should focus on
 \begin{itemize}
-	\item improving the dataset to include more races, genders and ethnicities
+	\item improving the dataset to increase the variety of faces and descriptions to include all social groups % include more races, genders and ethnicities % SD: a better way of saying
 	\item examining the possibility of representing images in terms of hierarchy of abstractions
-	\item extending the task including descriptions in different languages
+	\item extending the task % including descriptions in 
+              to different languages
 \end{itemize}
 
 \pause
