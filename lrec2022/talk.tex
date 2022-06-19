@@ -65,15 +65,16 @@ Nikolai Ilinykh$^{\ast}$ \and Rafal Černiavski$^{\dagger}$ \and Eva Elžbieta S
 \begin{itemize}
 
 \vspace{.7cm}
-\item Building face description systems is beneficial for humans with prosopagnosia.
-% The lack of the ability to recognise and describe a human face has underlying social importance for people with neurological conditions.
-% Therefore in this study we focused on the task of automatic generation of description of faces since developing such systems is potentially beneficial for humans with specific neurological conditions.
-\pause
+
 \item Face recognition and description is central to social interaction and it has an impact on decision-making and inter-personal relations.
 % In other words, describing faces has a social impact once we think of the models for automatic description of faces.
 % Thus it is important to monitor the quality of automatically generated descriptions of faces.
 % Because many descriptions contain subjective opinions (e.g., beautiful, old) and it is important to have a system that does not discriminate humans based on their facial features.
-% SD: Swap point 1 and 2?
+% SD: Swap point 1 and 2? +++
+\pause
+\item Building face description systems is beneficial for humans with prosopagnosia.
+% The lack of the ability to recognise and describe a human face has underlying social importance for people with neurological conditions.
+% Therefore in this study we focused on the task of automatic generation of description of faces since developing such systems is potentially beneficial for humans with specific neurological conditions.
 \pause
 \item Face description generation involves subjective language and requires a fine-grained understanding of specific parts of images (in \textcolor{blue}{blue}).
 % Mapping these descriptions with visual features is hard
@@ -129,13 +130,18 @@ Nikolai Ilinykh$^{\ast}$ \and Rafal Černiavski$^{\dagger}$ \and Eva Elžbieta S
 	% We take a simple CNN-LSTM model that takes an image of a face as its input and generates description in auto-regressive fashion
 	% For training, we use CelebA-HQ dataset.  The dataset contains 30, 000 high-resolution images of human faces of celebrities with 10 natural language descriptions per each image.
 	% We aim to examine the extent to which a standard captioning model is useful for face description generation task.
-	\item Analyse the impact of different feature representations on face description generation.
-	% We perform several experiments in which we modify either visual or linguistic inputs to the model.
+	\pause
+	\item Analyse the impact of using abstract visual representations for face description generation.
+	% We perform several experiments in which we modify visual input to the model.
 	% Our goal is to evaluate the robustness of the model when presented with different feature types.
+	\pause
+	\item Test the effects of text augmentation on the quality of generated descriptions
+	% Similar to our experiment on visual abstractions, we also look at what type of augmentation can be made on the language side in this model.
+	\pause
 	\item Evaluate the quality of visual abstractions for facial feature classification.
 	% We also test different visual representations for a different task of feature classification.
 	% With this, we aim to evaluate the quality of visual abstractions.
-        % SD: Test the effects of text augmentation on the quality of descriptions?
+        % SD: Test the effects of text augmentation on the quality of descriptions? +++
 \end{itemize}
 % Our results show that 
 \end{frame}
@@ -542,7 +548,10 @@ G. Aug-Anton 5  & \textcolor{red}{42.33}                                        
 
 % We do not observe any noticeable difference between different features across both micro- and macro-averaged results.
 % Notably, macro-averaged precision on sketch features goes slightly high for both classifiers indicating that there is something about sketch features the the model has learned; this results also nicely accompanies previous results for generation task for which sketch features were not that bad
-% also, generally, macro scores are in a lower range than micro scores, demonstrating that the model does worse on non-majority (minority?) classes. % SD: we can say that there is a discrepancy between the performance on classes % So the model can predict some of the most frequent features (female, attractive), but fails to predict rare features (goatee, receding_hairline). This result indicates that a more complex model is required to operate with augmented visual representations.
+% also, generally, macro scores are in a lower range than micro scores, demonstrating that the model does worse on non-majority (minority?) classes.
+% SD: we can say that there is a discrepancy between the performance on classes +++
+
+% So the model can predict some of the most frequent features (female, attractive), but fails to predict rare features (goatee, receding_hairline). This result indicates that a more complex model is required to operate with augmented visual representations.
 
 \begin{frame}
 \frametitle{Feature classification: results}
@@ -584,10 +593,11 @@ G. Aug-Anton 5  & \textcolor{red}{42.33}                                        
 \frametitle{Conclusions and future work}
 \begin{itemize}
 
-\item % In this study We examined the effects of visual and linguistic data augmentation on generation of descriptions of faces.
+\item In this study we examined the effects of visual and linguistic data augmentation on generation of descriptions of faces.
 % as means of improving automatic generation of descriptions of human faces
 \item Our results indicate that original images are generally more useful. However, it is still possible to ``distill'' original images to such level of abstractions (e.g., sketches), in which the model still performs relatively well
-\item The model benefits from training on captioning data from a different domain. % SD: we speculate that this enriches the semantic space, introduces additional semantic distinctions between the vocabulary.
+\item The model benefits from training on captioning data from a different domain.
+% SD: we speculate that this enriches the semantic space, introduces additional semantic distinctions between the vocabulary.
 %Possibly, because from captions it learns general syntactic structures and a broader range of semantic relations between words. Descriptions of faces in the dataset are much more rigid in this respect.
 \pause
 \item Future work should focus on
